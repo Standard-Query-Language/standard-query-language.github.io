@@ -14,3 +14,7 @@ For detailed documentation, visit [SQLY Documentation](https://standard-query-la
 ## Reference Python Library
 
 For the reference Python library, visit [pySQLY](https://standard-query-language.github.io/pySQLY/).
+
+## Reference Dotnet Library
+
+For the reference Python library, visit [CSQLY](https://standard-query-language.github.io/CSQLY/).
