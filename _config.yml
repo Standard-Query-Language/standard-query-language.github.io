@@ -1,0 +1,4 @@
+title: "Standard Query Language"
+description: "SQLY is a domain-specific query language designed to interact with various databases in a structured YAML format."
+baseurl: "/sqlweb"
+url: "https://standard-query-language.github.io"
