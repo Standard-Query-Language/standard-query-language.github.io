@@ -9,8 +9,8 @@ SQLY is a domain-specific query language designed to interact with various datab
 
 ## Documentation
 
-For detailed documentation, visit [SQLY Documentation](https://github.com/Standard-Query-Language/docs).
+For detailed documentation, visit [SQLY Documentation](https://standard-query-language.github.io/docs/).
 
 ## Reference Python Library
 
-For the reference Python library, visit [pySQLY](https://github.com/Standard-Query-Language/pySQLY).
+For the reference Python library, visit [pySQLY](https://standard-query-language.github.io/pySQLY/).
