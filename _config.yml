@@ -1,4 +1,57 @@
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-minifier
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+
 title: "Standard Query Language"
 description: "SQLY is a domain-specific query language designed to interact with various databases in a structured YAML format."
-baseurl: "/sqlweb"
+baseurl: "/"
 url: "https://standard-query-language.github.io"
+show_downloads: false
+
+
+# Markdown processing
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+# Convert markdown files to HTML
+optional_front_matter:
+  remove_originals: false
+relative_links:
+  enabled: true
+  collections: true
+
+# SEO settings
+social:
+  name: pySQLY
+  links:
+    - https://github.com/Standard-Query-Language/pySQLY
+    - https://pypi.org/project/pysql
+    - https://standard-query-language.github.io/pySQLY/
+    - https://standard-query-language.github.io/pySQLY/docs/
+# Theme customization
+colors:
+  header: "#2E7BCF"
+  gradient_top: "#2E7BCF"
+  gradient_bottom: "#2A6DA9"
+  link: "#2E7BCF"
+  section_headings: "#2E7BCF"
+
+
+# Jekyll Minifier settings
+jekyll-minifier:
+  compress_css: true
+  compress_javascript: true
+  compress_json: true
+  compress_html: true
+  exclude: ['*.xml', '*.txt']
+
+# Keywords for SEO
+keywords: python, sql, yaml, database, query language, sqlite, mysql, postgresql, oracle, sql server
+
